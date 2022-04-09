@@ -1,35 +1,11 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en"> 
     <head> 
         <title>JustANobody2107</title> 
+		<meta charset = "utf-8" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
-        <style type="text/css"> 
-        	body {
-        		background-color: #000
-        	}
-        	#console {
-        		font-family: courier, monospace;
-        		color: #fff;
-        		width:750px;
-        		margin-left:auto;
-        		margin-right:auto;
-        		margin-top:100px;
-        		font-size:14px;
-        	}
-        	a {
-        		color: #0bc;
-        		text-decoration: none;
-        	}
-        	#a {
-        		color: #0f0;
-        	}
-        	#c {
-        		color: #0bc;
-        	}
-        	#b {
-        		color: #ff0096;
-        	}
-        </style> 
+        <link rel = "stylesheet" href = "assets/css/style.css" type="text/css"/> 
+		<link rel = "icon" href ="assets/images/favicon.png" type = "image/x-icon"/>
     </head> 
     <body> 
         <script type="text/javascript"> 
@@ -75,9 +51,6 @@
         	    		$("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
         	    		window.scrollBy(0,50); // scroll to make sure bottom is always visible
         	    	}
-        	    	if ( key.preventDefault && key.keyCode != 122 ) { // prevent F11(fullscreen) from being blocked
-        	    		key.preventDefault()
-        	    	};  
         	    	if(key.keyCode != 122){ // otherway prevent keys default behavior
         	    		key.returnValue = false;
         	    	}
@@ -103,7 +76,7 @@
             }
             }
             Typer.speed=3;
-            Typer.file="justanobody.txt";
+            Typer.file="assets/txt/justanobody.txt";
             Typer.init();
 
             var timer = setInterval("t();", 30);
@@ -113,7 +86,6 @@
             		clearInterval(timer);
             	}
             }
-
         </script> 
         <div id="console"></div> 
         <script type="text/javascript">
