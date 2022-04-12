@@ -76,7 +76,7 @@ async function getFile(file) {
         textarr = value;
     }
     $.get(file, function(data) {
-        changeText(data.split('\r\n'));
+        changeText(data.split('\n'));
     });
     await timer(100);
     await parseText(textarr);
