@@ -3,16 +3,16 @@ cat commands.txt
 [br]
 Commands:
 [br]
-help       -  Prints out this list of commands.
+help     - Prints out this list of commands.
 [br]
-matrix     -  Opens 
+matrix     - Opens 
 [link](https://element.io)element
 .
 [br]
-socials    -  Prints a list of my social media accounts.
+socials    - Prints a list of my social media accounts.
 [br]
-portfolio  -  Opens the "real" site with all of my projects
+portfolio  - Opens the "real" site with all of my projects
 [br]
-discord    -  Join my discord!
+discord    - Join my discord!
 [br]
 [br]
