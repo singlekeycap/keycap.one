@@ -1,2 +1,18 @@
+cat commands.txt
+[br]
+[br]
 Commands:
-<p>help - Prints out this list of commands.<br/>matrix - Opens <a href="https://element.io">element</a>.<br/>socials - Prints a list of my social media accounts.<br/>portfolio - Opens the "real" site with all of my projects</p>
+[br]
+help       -  Prints out this list of commands.
+[br]
+matrix     -  Opens 
+[link](https://element.io)element
+.
+[br]
+socials    -  Prints a list of my social media accounts.
+[br]
+portfolio  -  Opens the "real" site with all of my projects
+[br]
+discord    -  Join my discord!
+[br]
+[br]

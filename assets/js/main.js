@@ -25,6 +25,7 @@ async function parseText(textarr) {
             let element = document.getElementById('console');
             for (let char of line) {
                 addChar(char, element);
+                await timer(Math.random() * 20 + 5);
                 continue;
             }
             continue;
@@ -50,7 +51,7 @@ async function parseText(textarr) {
             }
             for (let i = 0; i < line.length; i++) {
                 addChar(line[i], element);
-                await timer(Math.random() * 20 + 20);
+                await timer(Math.random() * 20 + 5);
                 continue;
             }
             continue;
@@ -58,18 +59,24 @@ async function parseText(textarr) {
     };
 }
 
-function getFile(file) {
+async function getFile(file) {
+    let textarr;
+    function changeText(value){
+        textarr = value;
+    }
     $.get(file, function(data) {
-        let textarr;
-        textarr = data.split('\n');
-        parseText(textarr);
+        changeText(data.split('\r\n'));
     });
+    await timer(20);
+    await parseText(textarr);
 }
 
 async function preFab() {
-    getFile('assets/txt/console.txt').then(() => {
-        getFile('assets/txt/justanobody.txt');
-    });
+    await getFile('assets/txt/console.txt');
+    await getFile('assets/txt/justanobody.txt');
+    await getFile('assets/txt/console.txt');
+    await getFile('assets/txt/commands.txt');
+    await getFile('assets/txt/console.txt');
 }
 
 preFab();
