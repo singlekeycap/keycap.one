@@ -51,6 +51,7 @@ function parseText(textarr) {
             line = line.slice(0, line.length-1);
             for (let char of line){
                 addChar(char, element);
+                // ok so apparently idk how git commits work so here ya go trop this is just for u bbg
                 continue;
             }
             continue;
