@@ -50,7 +50,7 @@ function parseText(textarr) {
             }
             line = line.slice(0, line.length-1);
             for (let char of line){
-                setTimeout(addChar(char, element, Math.random()*10+5));
+                addChar(char, element);
                 continue;
             }
             continue;
