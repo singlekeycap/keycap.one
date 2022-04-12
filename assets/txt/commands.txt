@@ -1,0 +1,2 @@
+Commands:
+<p>help - Prints out this list of commands.<br/>matrix - Opens <a href="https://element.io">element</a>.<br/>socials - Prints a list of my social media accounts.<br/>portfolio - Opens the "real" site with all of my projects</p>
