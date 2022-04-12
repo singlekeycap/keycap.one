@@ -11,7 +11,7 @@ matrix     - Opens
 [br]
 socials    - Prints a list of my social media accounts.
 [br]
-portfolio  - Opens the "real" site with all of my projects
+portfolio  - Opens the "real" site with all of my projects (coming soon)
 [br]
 discord    - Join my discord!
 [br]
