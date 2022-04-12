@@ -1,7 +1,11 @@
-<span id="a">justanobody@live</span>:<span id="b">~</span><span id="c">$</span> cat justanobody.txt<br/><br/>
-Hi, I'm JustANobody2107.<p>I am a "developer" who likes to make random projects mostly in python. You can check them out on <a href="https://github.com/justanobody2107">my GitHub</a>.</p>
-<p>You can also find a collection of my socials, activities and current projects here.</p>
-<span id="a">justanobody@live</span>:<span id="b">~</span><span id="c">$</span> cat commands.txt<br/><br/>
-Commands:
-<p>help - Prints out this list of commands.<br/>matrix - Opens <a href="https://element.io">element</a>.<br/>socials - Prints a list of my social media accounts.<br/>portfolio - Opens the "real" site with all of my projects</p>
-<span id="a">justanobody@live</span>:<span id="b">~</span><span id="c">$</span>
+cat justanobody.txt
+[br]
+[br]
+Hi, I'm JustANobody2107.
+[br]
+I am a "developer" who likes to make random projects mostly in python. You can check them out on 
+[link](https://github.com/justanobody2107)my GitHub
+.
+[br]
+You can also find a collection of my socials, activities and current projects here.
+[br]
