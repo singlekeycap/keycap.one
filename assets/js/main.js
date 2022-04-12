@@ -25,7 +25,12 @@ async function parseText(textarr) {
             let element = document.getElementById('console');
             for (let char of line) {
                 addChar(char, element);
-                await timer(Math.random() * 20 + 5);
+                let randTest = Math.random()*100;
+                if(randTest < 30){
+                    await timer(30);
+                }else{
+                    await timer(Math.random() * 10 + 5);
+                }
                 continue;
             }
             continue;
@@ -51,9 +56,15 @@ async function parseText(textarr) {
             }
             for (let i = 0; i < line.length; i++) {
                 addChar(line[i], element);
-                await timer(Math.random() * 20 + 5);
+                let randTest = Math.random()*100;
+                if(randTest < 30){
+                    await timer(30);
+                }else{
+                    await timer(Math.random() * 10 + 5);
+                }
                 continue;
             }
+            window.scrollBy(0, 200);
             continue;
         }
     };
@@ -67,7 +78,7 @@ async function getFile(file) {
     $.get(file, function(data) {
         changeText(data.split('\r\n'));
     });
-    await timer(20);
+    await timer(100);
     await parseText(textarr);
 }
 
@@ -97,6 +108,25 @@ function addText(key) {
             if (addedCount > 0) {
                 removeChar(element);
                 addedCount--;
+            }
+        } else if (key.keyCode == 13) {
+            let command = element.innerHTML.slice(element.innerHTML.length - addedCount, element.innerHTML.length);
+            if (command == "help") {
+                getFile('assets/txt/help.txt');
+                addedCount = 0;
+            } else if (command == "matrix") {
+                window.open("https://chat.justanobody.live/", "_self");
+            } else if (command == "socials") {
+                getFile('assets/txt/socials.txt');
+                addedCount = 0;
+            } else if (command == "portfolio") {
+                window.open("https://real.justanobody.live/", "_self");
+            } else if (command == "discord") {
+                window.open("https://discord.gg/CxtxXUcEfC", "_self");
+            } else {
+                element.innerHTML += "<br/><br/>Unknown command: " + command + "<br/><br/>";
+                getFile('assets/txt/console.txt');
+                addedCount = 0;
             }
         }
     }
