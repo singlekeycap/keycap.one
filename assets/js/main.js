@@ -83,14 +83,9 @@ function blinkCursor() {
 }
 
 async function getFile(file) {
-    let textarr;
-
-    function changeText(value) {
-        textarr = value;
-    }
-    $.get(file, function(data) {
-        changeText(data.split('\n'));
-    });
+    let data = await fetch(file);
+    data = await data.text();
+    let textarr = data.split('\n');
     await timer(100);
     await parseText(textarr);
 }
