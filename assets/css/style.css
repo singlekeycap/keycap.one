@@ -46,6 +46,15 @@ a {
     #console {
         color: #fff
     }
+    #a {
+        color: #0f0;
+    }
+    #c {
+        color: #0bc;
+    }
+    #b {
+        color: #ff0096;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -54,5 +63,14 @@ a {
     }
     #console {
         color: #000
+    }
+    #a {
+        color: #090;
+    }
+    #c {
+        color: #008c99;
+    }
+    #b {
+        color: #990059;
     }
 }
