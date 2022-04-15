@@ -8,6 +8,7 @@ let valuesObj = {
 
 let values = new Map(Object.entries(valuesObj));
 let allowType = false;
+let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 function addChar(char, element) {
     element.innerHTML += char;
@@ -101,8 +102,6 @@ async function preFab() {
     blinkCursorInterval = setInterval(blinkCursor, 500);
 }
 
-preFab();
-
 let addedCount = 0;
 
 async function addText(key) {
@@ -161,3 +160,4 @@ async function addText(key) {
 }
 
 document.onkeydown = addText;
+preFab();
