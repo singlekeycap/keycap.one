@@ -65,15 +65,12 @@ a {
         color: #000
     }
     #a {
-        color: #0f0;
-        text-shadow: 1px 2px 3px #666666
+        color: #090;
     }
     #c {
-        color: #0bc;
-        text-shadow: 1px 2px 3px #666666
+        color: #008c99;
     }
     #b {
-        color: #ff0096;
-        text-shadow: 1px 2px 3px #666666
+        color: #990059;
     }
 }
