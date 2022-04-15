@@ -38,3 +38,21 @@ a {
         font-size:12px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000
+    }
+    #console {
+        color: #fff
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #fff
+    }
+    #console {
+        color: #000
+    }
+}
