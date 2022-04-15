@@ -1,6 +1,20 @@
 body {
     background-color: #000
 }
+
+@media screen and (max-width: 768px) {
+    #console {
+        font-family: courier, monospace;
+        color: #fff;
+        width: 90%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10%;
+        margin-bottom:10%;
+        font-size:12px;
+    }
+}
+
 #console {
     font-family: courier, monospace;
     color: #fff;
