@@ -7,11 +7,13 @@ help     - Prints out this list of commands.
 [br]
 matrix     - Opens 
 [link](https://element.io)element
-.
+. 
+[r](down for the time being)
 [br]
 socials    - Prints a list of my social media accounts.
 [br]
-portfolio  - Opens the "real" site with all of my projects (coming soon)
+portfolio  - Opens the "real" site with all of my projects 
+[r](coming soon)
 [br]
 discord    - Join my discord!
 [br]
