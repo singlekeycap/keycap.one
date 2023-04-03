@@ -17,4 +17,4 @@ I could not agree more
 
 ... yet here I am working with Tailwind to bring to you this (hopefully) beautiful site.\
 
-##### Visit by clicking [here](https://keycap.one)
+##### Visit by clicking [here](https://keycap.one)!
