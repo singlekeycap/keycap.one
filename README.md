@@ -1,5 +1,6 @@
 # keycap.one
-#### _Why did I buy this domain?_
+
+_Why did I buy this domain?_
 
 keycap.one is a all-in-one, mobile-ready, minimal-looking site which includes:
 - My jailbroken iOS repo
@@ -16,4 +17,5 @@ I could not agree more
 
 ... yet here I am working with Tailwind to bring to you this (hopefully) beautiful site.
 
-#### Visit by clicking [here]("https://keycap.one")!
+
+Visit by clicking [here]("https://keycap.one")!
