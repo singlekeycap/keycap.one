@@ -15,6 +15,6 @@ As a wise developer once told me,
 
 I could not agree more
 
-... yet here I am working with Tailwind to bring to you this (hopefully) beautiful site.\
+... yet here I am working with Tailwind to bring to you this (hopefully) beautiful site.
 
 ##### Visit by clicking [here](https://keycap.one)!
