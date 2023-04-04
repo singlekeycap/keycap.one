@@ -2,7 +2,7 @@
 
 _Why did I buy this domain?_
 
-keycap.one is a all-in-one, mobile-ready, minimal-looking site which includes:
+keycap.one is an all-in-one, mobile-ready, minimal-looking site which includes:
 - My jailbroken iOS repo
 - My "bio" site
 - A Minecraft server
