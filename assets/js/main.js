@@ -95,7 +95,7 @@ let blinkCursorInterval;
 
 async function preFab() {
     await getFile('assets/txt/console.txt');
-    await getFile('assets/txt/justanobody.txt');
+    await getFile('assets/txt/singlekeycap.txt');
     await getFile('assets/txt/console.txt');
     await getFile('assets/txt/commands.txt');
     await getFile('assets/txt/console.txt');
@@ -139,15 +139,11 @@ async function addText(key) {
                 if (command == "help") {
                     await getFile('assets/txt/help.txt');
                     addedCount = 0;
-                } else if (command == "matrix") {
-                    window.open("https://chat.justanobody.live/", "_self");
                 } else if (command == "socials") {
                     await getFile('assets/txt/socials.txt');
                     addedCount = 0;
                 } else if (command == "portfolio") {
-                    window.open("https://real.justanobody.live/", "_self");
-                } else if (command == "discord") {
-                    window.open("https://discord.gg/CxtxXUcEfC", "_self");
+                    window.open("https://andreadallara.com/", "_self");
                 } else {
                     await parseText(["[br]", "[br]", "Unknown command: " + command, "[br]", "[br]"]);
                     await getFile('assets/txt/console.txt');

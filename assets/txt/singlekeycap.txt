@@ -1,0 +1,14 @@
+cat singlekeycap.txt
+[br]
+[br]
+Hi, I'm SingleKeycap.
+[br]
+[br]
+I am a "developer" who likes to make random projects mostly in Python. You can check them out on 
+[link](https://github.com/singlekeycap)my GitHub
+.
+[br]
+[br]
+You can also find a collection of my socials, activities and current projects here.
+[br]
+[br]
