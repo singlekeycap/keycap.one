@@ -46,7 +46,7 @@ async function parseText(textarr) {
             line = line.slice(obj.sliceAmount);
             if (style == "link") {
                 link = /\(.{1,99}\)/.exec(line);
-                line = line.slice(link[0].length);
+                line = line.slice(link[0].length).trim();
                 type = 'a';
             } else if (style == 'br') {
                 type = 'br';
